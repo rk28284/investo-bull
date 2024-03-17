@@ -15,7 +15,7 @@ import { MatIconModule } from '@angular/material/icon';
   styleUrl: './stock-table.component.css'
 })
 export class StockTableComponent implements OnInit {
-   stocks: Stock[] = [];
+  stocks: Stock[] = [];
    stocksDataSource = new MatTableDataSource<Stock>(this.stocks);
 
   displayedColumns: string[] = ['symbol', 'ltp', 'momentum', 'open', 'deviationFromPivots', 'todaysRange', 'ohl'];
@@ -27,6 +27,8 @@ export class StockTableComponent implements OnInit {
   async ngOnInit() {
     this.stocks = await this.stockService.getStocks();
     this.stocksDataSource.data = this.stocks;
+    console.log(this.stocks);
+    
 
   }
 
@@ -34,4 +36,10 @@ export class StockTableComponent implements OnInit {
     this.stocksDataSource.paginator = this.paginator;
     this.stocksDataSource.sort = this.sort;
   }
+
+  
+  getIcon(symbol: string): string {
+    return symbol.charAt(0);
+  }
+
 }
