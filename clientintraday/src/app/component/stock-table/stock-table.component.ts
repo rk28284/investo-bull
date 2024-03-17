@@ -5,11 +5,12 @@ import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { MatSort, MatSortModule } from '@angular/material/sort';
 import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
 import { MatIconModule } from '@angular/material/icon';
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-stock-table',
   standalone: true,
-  imports: [CommonModule,MatTableModule,MatSortModule, MatPaginatorModule,MatIconModule],
+  imports: [RouterLink, RouterLinkActive,RouterOutlet,CommonModule,MatTableModule,MatSortModule, MatPaginatorModule,MatIconModule],
   templateUrl: './stock-table.component.html',
 
   styleUrl: './stock-table.component.css'

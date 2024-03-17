@@ -8,6 +8,12 @@
   border-radius: 50%; 
   background-color:teal;
 }
+
+
+a {
+  text-decoration: none;
+}
+
 .adjust-icon {
   font-size: 1.2rem ;
   margin-left: 0.25rem

@@ -1,0 +1,26 @@
+/* single-symbol.component.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #cc9d9d; /* Light red background color */
+    border-radius: 10px; /* Add some border-radius for rounded corners */
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #1f0c0c;
+  }
+  
+  h2 {
+    font-size: 20px;
+    color: #921515;
+  }
+  
+  h2 {
+    font-size: 16px;
+    color: #310c0c;
+    line-height: 1.5;
+  }
+  
