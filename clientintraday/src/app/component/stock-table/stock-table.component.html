@@ -1,0 +1,42 @@
+<table mat-table [dataSource]="stocksDataSource" matSort>
+
+  <ng-container matColumnDef="symbol">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>SYMBOL</th>
+    <td mat-cell *matCellDef="let stock">{{ stock.symbol }} ({{ stock.openHighLowSignal }})</td>
+  </ng-container>
+
+  <ng-container matColumnDef="ltp">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>LTP</th>
+    <td mat-cell *matCellDef="let stock">{{ stock.ltp }} {{ stock.change }} ({{ stock.pctChange }} %)</td>
+  </ng-container>
+
+  <ng-container matColumnDef="momentum">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>MOMENTUM</th>
+    <td mat-cell *matCellDef="let stock">{{ stock.stockOutperformanceRank }} {{ stock.stockMomentumRank }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="open">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>OPEN</th>
+    <td mat-cell *matCellDef="let stock">{{ stock.open }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="deviationFromPivots">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>DEVIATION FROM PIVOTS</th>
+    <td mat-cell *matCellDef="let stock">PP R1</td>
+  </ng-container>
+
+  <ng-container matColumnDef="todaysRange">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>TODAYS RANGE</th>
+    <td mat-cell *matCellDef="let stock">{{ stock.low }} - {{ stock.high }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="ohl">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>OHL</th>
+    <td mat-cell *matCellDef="let stock">{{ stock.openHighLowSignal }}</td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+
+<mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
