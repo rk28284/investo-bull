@@ -16,7 +16,7 @@ Pagination
 
 
 
-dth="957" alt="Screenshot 2024-03-18 110612" src="https://github.com/rk28284/investo-bull/assets/112754760/3839609b-5de3-4ee3-8f3a-1f82553380f2">
+<img width="957" alt="Screenshot 2024-03-18 110612" src="https://github.com/rk28284/investo-bull/assets/112754760/3839609b-5de3-4ee3-8f3a-1f82553380f2">
 <img width="957" alt="Screenshot 2024-03-18 110644" src="https://github.com/rk28284/investo-bull/assets/112754760/83eb2db7-0530-4ed1-88c4-f5af43f012cf">
 SingleSymbol Page
 <img width="950" alt="Screenshot 2024-03-18 110714" src="https://github.com/rk28284/investo-bull/assets/112754760/ecf889cb-5975-4472-801b-0f2481b490a7">
