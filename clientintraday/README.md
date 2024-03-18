@@ -1,64 +1,27 @@
+# AppRaouting
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
 
- i want to make a angular project with api data.
- it should have the following table of content :-
-table of  contents:
-SYMBOL:-ALKYLAMINE (O=L) 
-LTP:-1981.8 15.1 (0.77 %)
-Momentum:-538 530
-OPEN:-1965 
-Deviation from Pivots:-PP R1
-TODAYS RANGE:-1965 2013.45 
-OHL:- Open=Low
+## Development server
 
- this data give in intraday api https://intradayscreener.com/api/openhighlow/cash.
- {
-        "symbol": "ALKYLAMINE",
-        "ltp": 1981.8,
-        "open": 1965,
-        "high": 2013.45,
-        "low": 1965,
-        "close": 0,
-        "change": 15.1,
-        "pctChange": 0.77,
-        "openHighLowSignal": "Open=Low",
-        "allScans": {
-            "symbol": "ALKYLAMINE",
-            "intradayScans": [
-                {
-                    "symbol": "ALKYLAMINE",
-                    "timeframe": "ohl",
-                    "scanName": "Open=Low",
-                    "scanFullName": null,
-                    "scanShortcode": "O=L",
-                    "isBoBd": "BO",
-                    "level": 2013.45,
-                    "time": null
-                }
-            ],
-            "eodScans": null
-        },
-        "volumePctChange": 0,
-        "oiPctChange": 0,
-        "stockOutperformanceRank": 530,
-        "stockMomentumRank": 538,
-        "negativeSectorMomentumFlag": null,
-        "sectorMomentumRank": 0,
-        "sectorTodayRank": 0,
-        "negativeMomentumFlag": false,
-        "positiveFnoMomentumRank": 0,
-        "negativeFnoMomentumRank": 0,
-        "negativeMomentumRank": 0,
-        "positiveMomentumRank": 0,
-        "nifty": false,
-        "fno": false,
-        "nifty500": false,
-        "prb": false,
-        "banknifty": false
-    },
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## Code scaffolding
 
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-give me code in step by step manner .dont give all code at once.note i use angular 17 ,it include standalone :true
+## Build
 
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
