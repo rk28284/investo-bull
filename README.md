@@ -3,7 +3,7 @@
 This is a simple web application that allows you to view intraday stock data for a given stock symbol.<br/>
 Symbolday
 <img width="960" alt="Screenshot 2024-03-18 103818" src="https://github.com/rk28284/investo-bull/assets/112754760/47b7db32-5d51-42c9-8e35-419bae26deba">
-Sort by LTP Column
+Sort by every Column
 
 
 
