@@ -5,6 +5,7 @@ This is a simple web application that allows you to view intraday stock data for
 
 - [Tech Stack](#tech-stack)
 - [Deployment](#deployment)
+- [Code Structure](#codestructure)
 - [Getting Started](#links)
 
 ## Tech Stack
