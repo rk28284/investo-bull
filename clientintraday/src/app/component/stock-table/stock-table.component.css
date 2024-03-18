@@ -1,4 +1,9 @@
+.ohl_container-round{
+  border-radius: 8px; /* Rounded corners */
+  padding: 5px; 
+  font-size: 14px;
 
+}
 .circular-icon {
   display: inline-block;
   width: 24px; 
