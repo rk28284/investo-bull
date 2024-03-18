@@ -41,9 +41,9 @@ This is a simple web application that allows you to view intraday stock data for
       - stock-table.component.html
       - stock-table.component.css
       - stock-tablecomponent.ts
-  - ...
-- services/
-  - stock.servies.ts
+     - services/
+        -stock.servies.ts
+
 ## Getting Started
 
 Clone the project
